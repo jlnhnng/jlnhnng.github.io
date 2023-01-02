@@ -1,0 +1,62 @@
+baseURL = 'https://jlnhnng.github.io/'
+
+languageCode = 'en'
+
+languageName = "English"
+
+title = 'jlnhnng'
+
+theme = 'loveit'
+
+paginate = 6
+
+[author]
+  name = "Julian Hennig"
+  email = "info@jlnhnng.de"
+  link = ""
+
+[params]
+  defaultTheme = "dark"
+  title = "jlnhnng"
+  description = ""
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      name = "jlnhnng"
+      pre = ""
+      post = ""
+      typeit = false
+
+  [params.app]
+    title = "jlnhnng"
+    noFavicon = true
+
+  [params.footer]
+    enable = true
+    hugo = false
+    copyright = true
+    author = true
+    since = 2022
+
+  [params.home]
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "info@jlnhnng.de"
+      avatarURL = "https://en.gravatar.com/userimage/229961120/4c11a38287db93f5b9317ed06e08b1b5.png"
+      title = "Julian Hennig"
+      subtitle = "Kubernetes Architect, Open Source Enthusiast, Nature Lover"
+      typeit = false
+      social = true
+
+  [params.social]
+    GitHub = "jlnhnng"
+    Linkedin = "julian-l-hennig/"
+    Mastodon = "https://cloud-native.social/@jlnhnng"
+    Email = "info@jlnhnng.de"
+
+  [params.home.posts]
+      enable = false
+      paginate = 6
+      defaultHiddenFromHomePage = false
